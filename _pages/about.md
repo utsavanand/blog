@@ -12,4 +12,4 @@ And by that very definition, I would like to say I am a dreamer trying not to ge
 
 or else
 
-![Sunburnt]({{ site.url }}/assets/images/sunburnt.jpeg)
+![Sunburnt]({{ site.url-prod }}/assets/images/sunburnt.jpeg)

@@ -17,8 +17,10 @@ title: "Utsav Anand, Software Engineer"
 email: pingutsav@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Utsav Anand Aggarwal (Software Engineer).
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url-prod: "http://utsavanand.github.io/resume"
 twitter_username: _utsavanand
 github_username:  utsavanand
 

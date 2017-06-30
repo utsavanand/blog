@@ -8,4 +8,4 @@ There are dreamers and there are realists in this world. You'd think the dreamer
 
 That was Cameron Tucker in Modern Family.
 
-And by that that very definition, I would like to say I am a dreamer struggling with reality.
+And by that very definition, I would like to say I am a dreamer trying not to get too close to the sun.

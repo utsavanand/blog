@@ -50,7 +50,7 @@ Sole technical POC for all operational queries and currently leading operational
 
 > <b> Undergrad Projects </b>
 
-* Real-Time Hand Gesture Detection (2012) Haar-Like feature extraction and AdaBoost algorithm to train the system to identify hand-gestures. [Quick Demo](http://goo.gl/vuWM7z) C/C++
+* Real-Time Hand Gesture Detection (2012) Haar-Like feature extraction and AdaBoost algorithm to train the system to identify hand-gestures. [Quick Demo](http://goo.gl/hEqkPL) C/C++
 
 * Code Optimization for Multi-Core Compilers (2012) I programmed an application that produces a call graph matrix and uses the dominance algorithm for the distribution of shared variables and resources amongst separate threads. FLEX/LEX (Lexical Analyzer), YACC /BISON (Parser), C/C++
 

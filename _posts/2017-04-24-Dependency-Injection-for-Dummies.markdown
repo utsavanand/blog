@@ -17,18 +17,30 @@ In traditional programming which was procedural in nature, the control of the pr
 Let's say you have designed a registration pipeline for your product where at each step you need to run some validation checks.
 
 Procedural Programming
-	
+
+{% if jekyll.environment == "development" %}
+![Procedural]({{ site.url }}/assets/images/IoC-1.png)
+{% else %}
 ![Procedural]({{ site.url-prod }}/assets/images/IoC-1.png)
+{% endif %}
 
 Event driven programming  (Over here the control is now with the notifications and not with the program itself).
 	
+{% if jekyll.environment == "development" %}
+![Event driven]({{ site.url }}/assets/images/IoC-2.png)
+{% else %}
 ![Event driven]({{ site.url-prod }}/assets/images/IoC-2.png)
-	
+{% endif %}	
+
 This is one of the examples where the control is taken away from the program itself. Some other examples include Factory Pattern, Observer Pattern, Dependency Injection, etc.
 
 ### Why did the term Dependency Injection came into being and what is it?
 
-![Event driven]({{ site.url-prod }}/assets/images/Martin-Fowler.jpg)
+{% if jekyll.environment == "development" %}
+![Martin Fowler]({{ site.url }}/assets/images/Martin-Fowler.jpg)
+{% else %}
+![Martin Fowler]({{ site.url-prod }}/assets/images/Martin-Fowler.jpg)
+{% endif %}
 
 This guy in the picture above, Mr. Martin Fowler was the first one to use it. This is the original article where it was used.
 

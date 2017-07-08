@@ -11,7 +11,7 @@ Firstly, let's just list down the terms that are important to understand this co
 
 Before I start explaining what is Inversion of Control and how does it actually relate to Dependency Injection, I wanted to call out that be it IoC (Inversion of Control) or Dependency Injection or Auto-wiring (this will come in later), all of these are fancy terms to explain very basic software design concepts. But still, the more clarity you get about these concepts and techniques and understand their application and actual cost benefits, the more your appreciate the absolutely apt naming.
 
-### Inversion of Control?
+#### Inversion of Control?
 In traditional programming which was procedural in nature, the control of the program was with the program itself. Inversion of control is when we delegate the control of the program to someone or something else which will then drive the flow. We shall try to understand this with an example but imagine a large concert where a lot of musicians are playing a complex composition, the orchestrator or the concert master is responsible to manage the control of the tune and not the musicians themselves.
 
 Let's say you have designed a registration pipeline for your product where at each step you need to run some validation checks.
@@ -34,7 +34,7 @@ Event driven programming  (Over here the control is now with the notifications a
 
 This is one of the examples where the control is taken away from the program itself. Some other examples include Factory Pattern, Observer Pattern, Dependency Injection, etc.
 
-### Why did the term Dependency Injection came into being and what is it?
+#### Why did the term Dependency Injection came into being and what is it?
 
 {% if jekyll.environment == "development" %}
 ![Martin Fowler]({{ site.url }}/assets/images/Martin-Fowler.jpg)
@@ -42,7 +42,7 @@ This is one of the examples where the control is taken away from the program its
 ![Martin Fowler]({{ site.url-prod }}/assets/images/Martin-Fowler.jpg)
 {% endif %}
 
-This guy in the picture above, Mr. Martin Fowler was the first one to use it. This is the original article where it was used.
+This guy in the picture above, Mr. Martin Fowler was the first one to use it. This is the [original article](https://martinfowler.com/articles/injection.html) where it was used.
 
 Let's start with what this concept is all about before we understand what does it mean from a software design perspective.
 

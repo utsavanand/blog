@@ -16,11 +16,11 @@ In traditional programming which was procedural in nature, the control of the pr
 
 Let's say you have designed a registration pipeline for your product where at each step you need to run some validation checks.
 
-	Procedural Programming
+Procedural Programming
 	
 ![Procedural]({{ site.url-prod }}/assets/images/IoC-1.png)
 
-	Event driven programming  (Over here the control is now with the notifications and not with the program itself).
+Event driven programming  (Over here the control is now with the notifications and not with the program itself).
 	
 ![Event driven]({{ site.url-prod }}/assets/images/IoC-2.png)
 	
@@ -73,7 +73,7 @@ So, whenever you inject a dependency you have more control over it. As leaving t
 
 More on different types of dependency injection mechanisms in part-2 here.
 
-____________________________________________________________________________________
+***
 
 [1] What is a lay-software-engineer? Personally coined. Not proud of it. But it refers to any software enthusiast without much of a specialized computer science knowledge or experience but a very basic understanding of what software is and that you can't really touch it. 
 

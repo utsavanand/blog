@@ -12,4 +12,10 @@ And by that very definition, I would like to say I am a dreamer trying not to ge
 
 or else
 
+{% if jekyll.environment == "development" %}
+![Sunburnt]({{ site.url }}/assets/images/sunburnt.jpeg)
+{% else %}
 ![Sunburnt]({{ site.url-prod }}/assets/images/sunburnt.jpeg)
+{% endif %}
+
+

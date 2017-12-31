@@ -1,5 +1,3 @@
-## Dependency Injection for Dummies
-
 One of my intentions of writing this is to remember and understand different ways of injecting dependencies within the Spring framework.
 
 The other is to explain dependency injection in a manner that a beginner-software-engineer can understand. My goal is to explain the concept starting from its fundamentals and then explain how it applies within the world of spring (or spring-based[1]) frameworks. 

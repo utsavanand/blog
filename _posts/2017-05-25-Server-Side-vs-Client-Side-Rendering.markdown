@@ -5,11 +5,21 @@ That is when I started reading about the differneces between Server side and cli
 
 They are basically very simple to understand but it took me a while to get what they really mean and the various ways we could take to go about them.
 
-Also, I want to add that I am not a frontend expert. I haven't done any benchmarking exercies to have a good enough answer on which of these two is faster. I have done some experiments to understand the pros and cons of either approach which were quite personalized to my use-case. So, this blog is mostly to document what I have leart and in the proces explain and contract these two options as simply as possible. So, here it goes.
+Also, I want to add that I am not a frontend expert. I haven't done any benchmarking exercies to have a good enough answer on which of these two is faster. I have done some experiments to understand the pros and cons of either approach which were quite personalized to my use-case. So, this blog is mostly to document what I have learnt and in the proces explain and contract these two options as simply as possible. So, here it goes.
 
-When I first moved to the city of Bangalore for my first job out of college, I did not have a lot of experience of living alone. And in addition to other things, one major issue that I had to tackle was "How to get the groceries?" Why, you ask! Well, mostly because I over-analyze and over-think but also because I am a hugely lethargic organism which tends to move only in the most dire situations where survival is at stake.
+When I first moved to the city of Bangalore for my first job out of college, I did not have a lot of experience of living alone. And in addition to other things, one major issue that I had to tackle was "How to get the groceries?" Why, you ask! Well, mostly because I over-analyze and over-think but also because I am a hugely lethargic organism which tends to move a limb only in the most dire circumstances where survival is at stake.
 
-So, I had two options.
+Imagine this
+
+{% if jekyll.environment == "development" %}
+![Idiot Chair]({{ site.url }}/assets/images/idiocracy.png)
+{% else %}
+![Idiot Chair]({{ site.url-prod }}/assets/images/idiocracy.png)
+{% endif %}
+
+Coffee on me if you know the movie!
+
+So yeah, back to our problem. I had two options.
 
 1. Go to the store every other day, or every week and buy the groceries I need for that time period only.
 2. Go to the store once every two month, and stack everything in a refrigerator. 

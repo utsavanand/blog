@@ -1,4 +1,3 @@
-## Server Side vs Client side rendering.
 
 I have recently been trying to come up with some initial pointers that could help me with optimization of registration based website at work.
 

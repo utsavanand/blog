@@ -44,9 +44,9 @@ Let's pro/con these options now.
 1. I need to have a good refrigerator to stock all the groceries and keep them fresh.
 2. Each trip will take a lot of time as I have more stuff to buy.
 
-There could be many more things you could factor in while comparing the above two options but you het the gist.
+There could be many more things you could factor in while comparing the above two options but you get the gist.
 
-Now, Option 1 - Make frequent trips to the store and get only you want for a limited time period is analogous to Server Side Rendering.
+Now, Option 1 - Make frequent trips to the store and get only what you want for a limited time period is analogous to Server Side Rendering.
 
 Option 2 - Make one trip to the store and get most of your stuff. Stack it in a refrigerator is analogous to Client Side Rendering.
 

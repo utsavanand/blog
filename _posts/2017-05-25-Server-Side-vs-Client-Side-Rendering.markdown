@@ -1,7 +1,7 @@
 
 I have recently been trying to come up with some initial pointers that could help me with optimization of registration based website at work.
 
-That is when I started reading about the differneces between Server side and client side rendering.
+That is when I started reading about the differences between Server side and client side rendering.
 
 They are basically very simple to understand but it took me a while to get what they really mean and the various ways we could take to go about them.
 
@@ -54,19 +54,21 @@ You use *Server Side Rendering*, when you build your HTML pages on the server an
 
 You use *Client Side Rendering*, when most of your DOM is populated on the client side i.e. on the browser. You get everything that you want (all of the JavaScript) during your initial load that will hold the logic of parsing your backend data (think JSON) and populating your DOM. And with each new request or event, you only fetch the data from server in formats like JSON and then update your DOM with it.  So, your browser in a way acts as a client to your data-source APIs.
 
-Most of us already and automatically start with Server Side Rendering because that has for a long time been the traditional way. But now with a sea of these new isomorphic JavaScript frameworks and the MEAN stacks, client side rendering is quite a norm. 
+Most of us already and automatically start with Server Side Rendering because that has for a long time been the traditional way. But now with a sea of these new isomorphic JavaScript frameworks and the MEAN (or MEAN like) development stacks, client side rendering is quite the norm. 
 
 Both of these options have their pros and cons, some of which you might have already deduced. Not rocket science I'd say.
 
-But one thing to note with these, is how a *search engine would crawl your page* in the two cases. Some of you, who might have had exposure on how SEO and web crawlers work would have guesses that crawling client-side rendered pages could be an issue, and so it is. It's pretty straightforward with server-side rendering because your HTML already has your content when it's sent to the browser. With client-side it's a barebones HTML document, which gets populated after the JS makes an AJAX call and gets the data. So, a web crawler might not really prioritize your page because it doesn't see any content there. Little does it know about the wonderful things it would miss after your pre-loaded JavaScript furnishes its magic wand.
+But one thing to note with these, is how a *search engine would crawl your page* in the two cases. Some of you, who might have had exposure on how SEO and web crawlers work would have guessed that crawling client-side rendered pages could be an issue, and so it is.
 
-Now, there are things you can do to help it. Google _Prerender + SEO_! Also, a lot of search engines have made their crawlers smarter.
+It's pretty straightforward with server-side rendering because your HTML already has your content when it's sent to the browser. With client-side it's a barebones HTML document that comes first, which only gets populated after the JS makes an AJAX call and gets the data. So, a web crawler might not really prioritize your page because it doesn't see any content there. Little does it know about the wonderful things it would miss after your pre-loaded JavaScript furnishes its magic wand.
 
-They can now see the future! 
+Now, there are things you can do to help it. Google "Prerender + SEO"!
 
-Well, sort of. As long as, you allow them to crawl and parse your JS, some of the smarter web crawlers can even see content that gets created dynamically. But not all crawler can do it. So yeah, it is a bit of a risk to just bank on that. 
+Also, a lot of search engines have made their crawlers smarter. They can now see the future! 
 
-To sum it up, SEO will need a bit of work in case you want to go for client side rendering of your pages but it will be a lot faster and snappy after that initial page load. But even still, unless you really feel the need to try otherwise, it might just make sense to KISS and stick to the good ol' server-side rendering.
+Well, sort of. As long as, you allow them to crawl and parse your JS, some of the smarter web crawlers can even see content that gets created dynamically. But not all crawlers can do it. So yeah, it is a bit of a risk to just bank on that. 
+
+To sum it up, SEO will need a bit of work in case you want to go for client side rendering of your pages but your website will be faster and snappy after that initial page load. But even still, unless you really feel the need to try otherwise, it might just make sense to KISS and stick to the good ol' server-side rendering.
 
 
 
